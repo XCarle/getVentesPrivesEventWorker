@@ -1,0 +1,24 @@
+GEM
+  specs:
+    concurrent-ruby (1.0.5)
+    connection_pool (2.2.1)
+    rack (2.0.3)
+    rack-protection (2.0.0)
+      rack
+    redis (3.3.3)
+    rubyzip (1.2.1)
+    sidekiq (5.0.4)
+      concurrent-ruby (~> 1.0)
+      connection_pool (~> 2.2, >= 2.2.0)
+      rack-protection (>= 1.5.0)
+      redis (~> 3.3, >= 3.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rubyzip (>= 1.0.0)
+  sidekiq
+
+BUNDLED WITH
+   1.15.3
